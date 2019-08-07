@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    {{message}}
+  </h1>
+  <!--<app-directive (childEvent)="message=$event" [name]="parentData"></app-directive>
+  <app-pipecomponent></app-pipecomponent>-->
+  
+  <nav>
+    <a routerLink="/directive" routerLinkActive="active">Directive</a>&nbsp;&nbsp;&nbsp;
+    <a routerLink="/home" routerLinkActive="active">Home</a>&nbsp;&nbsp;&nbsp;
+    <a routerLink="/pipecomponent" routerLinkActive="active">Pipe Component</a>&nbsp;&nbsp;&nbsp;
+    <a routerLink="/b" [state]="{data:{'name':'Passing to B'}}" routerLinkActive="active">B Component</a>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
+
+
