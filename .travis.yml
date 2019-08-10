@@ -10,4 +10,4 @@ before_script:
   - npm install -g @angular/cli
 script:
 - ng lint
-- ng build --prod https://github.com https://yesha-desai.github.io/myFirstApp/
+- ng build --prod
